@@ -1,0 +1,17 @@
+{
+    "name": "derweili/same-day-delivery",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "derweili",
+            "email": "jw@derweili.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Derweili\\SameDayDelivery\\": "src/"
+        }
+    }
+}
